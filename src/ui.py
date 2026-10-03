@@ -7,7 +7,7 @@ from .config import COLORS
 CSS = """
 <style>
 html, body, [class*="css"] { font-family: Inter, 'Segoe UI', Helvetica, Arial, sans-serif; }
-.block-container { padding-top: 1.2rem; padding-bottom: 2rem; max-width: 1500px; }
+.block-container { padding-top: 4.5rem; padding-bottom: 2rem; max-width: 1500px; }
 .app-header { background: linear-gradient(100deg,#14233A 0%,#1F3A5F 100%); color:#fff; padding:18px 24px;
   border-radius:10px; margin-bottom:16px; display:flex; justify-content:space-between; align-items:center; gap:16px; }
 .app-header h1 { font-size:1.35rem; letter-spacing:.12em; margin:0; font-weight:700; color:#fff; padding:0; }

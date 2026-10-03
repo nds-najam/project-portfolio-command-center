@@ -1,0 +1,229 @@
+issue_id,project_id,item_type,issue,category,severity,owner,raised_date,due_date,status
+I-0001,P-1001,Issue,Supplier delivery slipped,Vendor Delay,High,Planning Engineer,2026-09-08,2026-09-24,Resolved
+I-0002,P-1001,Risk,Failed OTDR test results,Quality Issue,High,Procurement Lead,2026-08-18,2026-09-11,Closed
+I-0003,P-1001,Issue,Cable drums delayed at port,Material Delay,Medium,Quality Lead,2026-09-24,2026-10-20,Resolved
+I-0004,P-1002,Issue,Heavy equipment unavailable,Resource Shortage,Medium,Procurement Lead,2026-09-21,2026-10-09,Closed
+I-0005,P-1002,Risk,Heavy equipment unavailable,Resource Shortage,High,Procurement Lead,2026-08-20,2026-08-28,Closed
+I-0006,P-1002,Risk,Client power provisioning delayed,Client Dependency,High,Procurement Lead,2026-09-09,2026-09-16,Resolved
+I-0007,P-1003,Issue,Municipality excavation permit pending,Permit Delay,Medium,Quality Lead,2026-07-08,2026-07-26,Resolved
+I-0008,P-1003,Risk,Supplier delivery slipped,Vendor Delay,High,Client Liaison,2026-07-13,2026-07-24,Resolved
+I-0009,P-1004,Risk,Heavy equipment unavailable,Resource Shortage,Critical,Operations Lead,2026-08-12,2026-08-19,Closed
+I-0010,P-1005,Risk,Landowner blocking site access,Access Issue,Medium,Commercial Manager,2026-08-19,2026-09-17,Resolved
+I-0011,P-1005,Risk,Rework required after audit,Quality Issue,High,Planning Engineer,2026-09-16,2026-10-08,Closed
+I-0012,P-1006,Risk,Subcontractor mobilisation late,Vendor Delay,Medium,Operations Lead,2026-08-05,2026-08-28,Resolved
+I-0013,P-1006,Risk,Sandstorm stopped field works,Weather,High,Quality Lead,2026-07-15,2026-08-10,Resolved
+I-0014,P-1006,Issue,Site access permit expired,Permit Delay,Medium,Site Manager,2026-07-08,2026-08-06,Resolved
+I-0015,P-1007,Issue,Updated BoQ awaiting approval,Design Change,High,Procurement Lead,2026-09-22,2026-09-09,Open
+I-0016,P-1007,Issue,Updated BoQ awaiting approval,Design Change,High,Quality Lead,2026-07-08,2026-08-04,Closed
+I-0017,P-1007,Issue,Heavy equipment unavailable,Resource Shortage,Medium,Quality Lead,2026-07-20,2026-08-13,Resolved
+I-0018,P-1007,Risk,Site access permit expired,Permit Delay,High,Quality Lead,2026-09-23,2026-09-30,Closed
+I-0019,P-1008,Issue,Site access permit expired,Permit Delay,High,Procurement Lead,2026-08-12,2026-10-13,Open
+I-0020,P-1008,Issue,Sandstorm stopped field works,Weather,High,Operations Lead,2026-08-13,2026-10-18,Open
+I-0021,P-1008,Issue,Rework required after audit,Quality Issue,Medium,Site Manager,2026-09-23,2026-09-14,Open
+I-0022,P-1008,Risk,Concrete strength non-conformance,Quality Issue,Medium,Commercial Manager,2026-07-28,2026-08-12,Resolved
+I-0023,P-1008,Issue,Road-crossing approval delayed,Permit Delay,Low,Operations Lead,2026-08-29,2026-09-07,Closed
+I-0024,P-1008,Risk,Supplier delivery slipped,Vendor Delay,Medium,Operations Lead,2026-09-19,2026-10-02,Closed
+I-0025,P-1009,Issue,Subcontractor mobilisation late,Vendor Delay,Medium,Quality Lead,2026-09-16,2026-09-28,In Progress
+I-0026,P-1009,Risk,Heavy equipment unavailable,Resource Shortage,High,Planning Engineer,2026-09-17,2026-09-15,Open
+I-0027,P-1009,Issue,Supplier delivery slipped,Vendor Delay,Critical,Quality Lead,2026-08-13,2026-10-23,In Progress
+I-0028,P-1009,Risk,Pending design sign-off from client,Client Dependency,High,Client Liaison,2026-09-01,2026-09-16,In Progress
+I-0029,P-1009,Issue,Revised route design issued,Design Change,Medium,Operations Lead,2026-07-12,2026-09-26,Open
+I-0030,P-1009,Issue,Road-crossing approval delayed,Permit Delay,High,Commercial Manager,2026-09-13,2026-09-22,In Progress
+I-0031,P-1009,Issue,Steel supply shortfall,Material Delay,Medium,Quality Lead,2026-09-02,2026-09-26,Resolved
+I-0032,P-1009,Issue,Steel supply shortfall,Material Delay,Critical,Commercial Manager,2026-08-21,2026-09-08,Closed
+I-0033,P-1010,Risk,Supplier delivery slipped,Vendor Delay,Medium,Quality Lead,2026-08-02,2026-10-05,Open
+I-0034,P-1010,Issue,Client power provisioning delayed,Client Dependency,High,Quality Lead,2026-08-02,2026-09-26,Open
+I-0035,P-1010,Risk,Landowner blocking site access,Access Issue,Medium,Planning Engineer,2026-08-20,2026-09-26,In Progress
+I-0036,P-1010,Issue,Pending design sign-off from client,Client Dependency,Medium,Site Manager,2026-08-02,2026-09-18,In Progress
+I-0037,P-1010,Issue,Client site handover not confirmed,Client Dependency,High,Planning Engineer,2026-08-27,2026-10-14,Open
+I-0038,P-1010,Issue,Client power provisioning delayed,Client Dependency,High,Planning Engineer,2026-08-02,2026-10-19,Open
+I-0039,P-1010,Issue,Right-of-way dispute,Access Issue,Critical,Quality Lead,2026-08-14,2026-10-16,Open
+I-0040,P-1010,Risk,Insufficient installation crews,Resource Shortage,Critical,Operations Lead,2026-09-23,2026-09-11,Open
+I-0041,P-1010,Issue,Supplier delivery slipped,Vendor Delay,Medium,Quality Lead,2026-09-05,2026-09-17,Closed
+I-0042,P-1010,Issue,Road-crossing approval delayed,Permit Delay,Medium,Client Liaison,2026-09-09,2026-09-16,Closed
+I-0043,P-1010,Risk,Insufficient installation crews,Resource Shortage,Medium,Site Manager,2026-08-02,2026-08-25,Closed
+I-0044,P-1011,Issue,Equipment shipment held at customs,Material Delay,Critical,Planning Engineer,2026-09-25,2026-10-30,In Progress
+I-0045,P-1011,Issue,Equipment shipment held at customs,Material Delay,Low,Site Manager,2026-07-08,2026-09-10,In Progress
+I-0046,P-1011,Risk,Scope change request under review,Design Change,Medium,Client Liaison,2026-08-03,2026-10-30,In Progress
+I-0047,P-1011,Issue,Landowner blocking site access,Access Issue,Critical,Operations Lead,2026-08-22,2026-10-08,In Progress
+I-0048,P-1011,Issue,Insufficient installation crews,Resource Shortage,High,Client Liaison,2026-07-16,2026-10-30,Open
+I-0049,P-1011,Issue,Failed OTDR test results,Quality Issue,High,Quality Lead,2026-09-06,2026-10-13,In Progress
+I-0050,P-1011,Issue,Client site handover not confirmed,Client Dependency,High,Quality Lead,2026-08-28,2026-10-20,In Progress
+I-0051,P-1011,Issue,Client power provisioning delayed,Client Dependency,High,Client Liaison,2026-09-19,2026-10-15,In Progress
+I-0052,P-1011,Issue,Site access permit expired,Permit Delay,High,Commercial Manager,2026-07-27,2026-08-20,Closed
+I-0053,P-1011,Issue,Cable drums delayed at port,Material Delay,High,Commercial Manager,2026-07-25,2026-08-05,Closed
+I-0054,P-1011,Issue,Sandstorm stopped field works,Weather,High,Planning Engineer,2026-07-20,2026-08-04,Resolved
+I-0055,P-1012,Issue,Shortage of certified splicers,Resource Shortage,Medium,Client Liaison,2026-07-24,2026-10-25,In Progress
+I-0056,P-1012,Issue,Scope change request under review,Design Change,Critical,Client Liaison,2026-07-11,2026-10-10,In Progress
+I-0057,P-1012,Issue,Heavy equipment unavailable,Resource Shortage,High,Client Liaison,2026-07-27,2026-09-11,Open
+I-0058,P-1012,Risk,Subcontractor mobilisation late,Vendor Delay,Medium,Quality Lead,2026-09-06,2026-10-04,Open
+I-0059,P-1012,Issue,Site access permit expired,Permit Delay,Critical,Procurement Lead,2026-09-08,2026-09-18,In Progress
+I-0060,P-1012,Issue,Extreme heat limiting work hours,Weather,High,Commercial Manager,2026-08-08,2026-09-21,In Progress
+I-0061,P-1012,Issue,Rework required after audit,Quality Issue,Medium,Procurement Lead,2026-08-14,2026-09-16,In Progress
+I-0062,P-1012,Risk,Municipality excavation permit pending,Permit Delay,High,Planning Engineer,2026-07-07,2026-09-23,In Progress
+I-0063,P-1012,Issue,Heavy equipment unavailable,Resource Shortage,High,Quality Lead,2026-09-09,2026-10-22,In Progress
+I-0064,P-1012,Issue,Heavy rain flooding trenches,Weather,Low,Operations Lead,2026-08-17,2026-09-28,In Progress
+I-0065,P-1012,Issue,Insufficient installation crews,Resource Shortage,High,Quality Lead,2026-08-16,2026-10-13,In Progress
+I-0066,P-1012,Issue,Landowner blocking site access,Access Issue,Critical,Client Liaison,2026-07-25,2026-10-01,In Progress
+I-0067,P-1012,Issue,Equipment shipment held at customs,Material Delay,High,Operations Lead,2026-08-18,2026-10-11,In Progress
+I-0068,P-1012,Risk,Supplier delivery slipped,Vendor Delay,Medium,Procurement Lead,2026-08-28,2026-10-01,Open
+I-0069,P-1012,Issue,Vendor testing equipment delayed,Vendor Delay,Medium,Client Liaison,2026-07-25,2026-10-08,In Progress
+I-0070,P-1012,Issue,Landowner blocking site access,Access Issue,Critical,Operations Lead,2026-08-25,2026-10-28,In Progress
+I-0071,P-1012,Issue,Revised route design issued,Design Change,High,Quality Lead,2026-09-21,2026-09-14,Open
+I-0072,P-1012,Issue,Revised route design issued,Design Change,High,Operations Lead,2026-08-17,2026-10-23,Open
+I-0073,P-1012,Issue,Scope change request under review,Design Change,Critical,Site Manager,2026-07-26,2026-10-11,Open
+I-0074,P-1012,Issue,Municipality excavation permit pending,Permit Delay,Low,Procurement Lead,2026-09-23,2026-09-16,In Progress
+I-0075,P-1012,Issue,Restricted-zone entry not granted,Access Issue,Critical,Site Manager,2026-08-26,2026-10-16,In Progress
+I-0076,P-1012,Issue,Restricted-zone entry not granted,Access Issue,Medium,Client Liaison,2026-09-15,2026-09-25,Resolved
+I-0077,P-1012,Issue,Landowner blocking site access,Access Issue,High,Procurement Lead,2026-09-15,2026-09-25,Resolved
+I-0078,P-1013,Risk,Revised route design issued,Design Change,High,Site Manager,2026-08-30,2026-09-29,Open
+I-0079,P-1013,Issue,Concrete strength non-conformance,Quality Issue,Medium,Planning Engineer,2026-09-19,2026-10-14,Open
+I-0080,P-1013,Issue,Restricted-zone entry not granted,Access Issue,Critical,Commercial Manager,2026-07-10,2026-09-19,In Progress
+I-0081,P-1013,Risk,Steel supply shortfall,Material Delay,Medium,Commercial Manager,2026-09-16,2026-10-10,In Progress
+I-0082,P-1013,Issue,Failed OTDR test results,Quality Issue,Medium,Commercial Manager,2026-07-25,2026-10-02,In Progress
+I-0083,P-1013,Risk,Pending design sign-off from client,Client Dependency,High,Client Liaison,2026-08-04,2026-08-12,Resolved
+I-0084,P-1013,Issue,Concrete strength non-conformance,Quality Issue,High,Procurement Lead,2026-07-10,2026-07-24,Closed
+I-0085,P-1013,Risk,Site access permit expired,Permit Delay,Medium,Site Manager,2026-08-01,2026-08-26,Resolved
+I-0086,P-1014,Issue,Heavy rain flooding trenches,Weather,High,Operations Lead,2026-08-16,2026-09-24,Open
+I-0087,P-1014,Issue,Sandstorm stopped field works,Weather,Medium,Operations Lead,2026-08-15,2026-10-14,Open
+I-0088,P-1014,Issue,Revised route design issued,Design Change,Medium,Operations Lead,2026-09-07,2026-09-26,Open
+I-0089,P-1014,Issue,Updated BoQ awaiting approval,Design Change,Medium,Site Manager,2026-07-23,2026-10-03,In Progress
+I-0090,P-1014,Issue,Right-of-way dispute,Access Issue,Critical,Site Manager,2026-07-23,2026-09-27,In Progress
+I-0091,P-1014,Issue,Insufficient installation crews,Resource Shortage,Critical,Quality Lead,2026-08-01,2026-09-22,Open
+I-0092,P-1014,Issue,Rework required after audit,Quality Issue,Low,Procurement Lead,2026-08-29,2026-10-14,In Progress
+I-0093,P-1014,Risk,Updated BoQ awaiting approval,Design Change,Medium,Operations Lead,2026-08-18,2026-08-27,Closed
+I-0094,P-1015,Issue,Steel supply shortfall,Material Delay,Medium,Client Liaison,2026-07-13,2026-10-30,In Progress
+I-0095,P-1015,Issue,Municipality excavation permit pending,Permit Delay,Low,Procurement Lead,2026-07-04,2026-07-22,Resolved
+I-0096,P-1015,Issue,Subcontractor mobilisation late,Vendor Delay,Low,Client Liaison,2026-09-02,2026-09-09,Closed
+I-0097,P-1015,Risk,Site access permit expired,Permit Delay,High,Operations Lead,2026-09-12,2026-10-03,Resolved
+I-0098,P-1016,Risk,Road-crossing approval delayed,Permit Delay,Medium,Client Liaison,2026-07-11,2026-10-23,In Progress
+I-0099,P-1016,Issue,Shortage of certified splicers,Resource Shortage,Critical,Client Liaison,2026-07-29,2026-10-28,In Progress
+I-0100,P-1016,Issue,Failed OTDR test results,Quality Issue,Low,Operations Lead,2026-08-29,2026-09-23,Open
+I-0101,P-1016,Risk,Client power provisioning delayed,Client Dependency,Critical,Commercial Manager,2026-07-24,2026-10-13,Open
+I-0102,P-1016,Issue,Municipality excavation permit pending,Permit Delay,Medium,Site Manager,2026-08-19,2026-10-22,In Progress
+I-0103,P-1016,Issue,Road-crossing approval delayed,Permit Delay,High,Commercial Manager,2026-07-24,2026-08-02,Closed
+I-0104,P-1016,Issue,Supplier delivery slipped,Vendor Delay,High,Commercial Manager,2026-09-08,2026-09-30,Resolved
+I-0105,P-1017,Issue,Equipment shipment held at customs,Material Delay,Low,Planning Engineer,2026-07-29,2026-09-19,In Progress
+I-0106,P-1017,Risk,Concrete strength non-conformance,Quality Issue,Low,Commercial Manager,2026-09-03,2026-09-28,Closed
+I-0107,P-1017,Issue,Heavy equipment unavailable,Resource Shortage,Medium,Operations Lead,2026-07-04,2026-07-14,Closed
+I-0108,P-1018,Risk,Scope change request under review,Design Change,Medium,Commercial Manager,2026-08-25,2026-09-08,In Progress
+I-0109,P-1018,Issue,Concrete strength non-conformance,Quality Issue,Critical,Planning Engineer,2026-08-28,2026-10-05,In Progress
+I-0110,P-1018,Risk,Heavy rain flooding trenches,Weather,High,Procurement Lead,2026-09-01,2026-10-13,Open
+I-0111,P-1018,Issue,Pending design sign-off from client,Client Dependency,High,Client Liaison,2026-08-25,2026-09-19,Resolved
+I-0112,P-1019,Issue,Scope change request under review,Design Change,Medium,Procurement Lead,2026-07-30,2026-10-14,In Progress
+I-0113,P-1019,Risk,Site access permit expired,Permit Delay,Critical,Procurement Lead,2026-09-17,2026-09-25,Open
+I-0114,P-1019,Risk,Extreme heat limiting work hours,Weather,Medium,Planning Engineer,2026-08-09,2026-10-10,In Progress
+I-0115,P-1019,Issue,Pending design sign-off from client,Client Dependency,Low,Client Liaison,2026-07-27,2026-10-08,Open
+I-0116,P-1019,Issue,Equipment shipment held at customs,Material Delay,High,Planning Engineer,2026-09-06,2026-09-26,Resolved
+I-0117,P-1020,Issue,Failed OTDR test results,Quality Issue,Medium,Site Manager,2026-08-14,2026-10-15,Open
+I-0118,P-1020,Issue,Client site handover not confirmed,Client Dependency,Medium,Procurement Lead,2026-08-03,2026-10-08,Open
+I-0119,P-1020,Risk,Vendor testing equipment delayed,Vendor Delay,High,Site Manager,2026-09-20,2026-09-29,In Progress
+I-0120,P-1020,Issue,Subcontractor mobilisation late,Vendor Delay,Medium,Site Manager,2026-08-03,2026-09-23,In Progress
+I-0121,P-1020,Issue,Client power provisioning delayed,Client Dependency,High,Quality Lead,2026-08-03,2026-09-30,In Progress
+I-0122,P-1020,Issue,Shortage of certified splicers,Resource Shortage,Medium,Planning Engineer,2026-09-01,2026-10-25,In Progress
+I-0123,P-1020,Issue,Insufficient installation crews,Resource Shortage,Medium,Procurement Lead,2026-08-03,2026-09-30,Open
+I-0124,P-1020,Risk,Insufficient installation crews,Resource Shortage,Medium,Quality Lead,2026-08-03,2026-08-13,Resolved
+I-0125,P-1021,Issue,Failed OTDR test results,Quality Issue,Medium,Commercial Manager,2026-07-29,2026-10-11,Open
+I-0126,P-1021,Issue,Heavy equipment unavailable,Resource Shortage,Low,Client Liaison,2026-07-11,2026-09-08,Open
+I-0127,P-1021,Issue,Supplier delivery slipped,Vendor Delay,Critical,Procurement Lead,2026-07-28,2026-09-20,In Progress
+I-0128,P-1021,Issue,Landowner blocking site access,Access Issue,Low,Procurement Lead,2026-08-02,2026-08-30,Resolved
+I-0129,P-1021,Issue,Shortage of certified splicers,Resource Shortage,High,Commercial Manager,2026-09-01,2026-09-26,Resolved
+I-0130,P-1021,Issue,Supplier delivery slipped,Vendor Delay,High,Quality Lead,2026-08-25,2026-09-21,Resolved
+I-0131,P-1022,Issue,Heavy equipment unavailable,Resource Shortage,Medium,Quality Lead,2026-07-11,2026-09-27,Open
+I-0132,P-1022,Issue,Landowner blocking site access,Access Issue,Medium,Quality Lead,2026-07-05,2026-07-14,Resolved
+I-0133,P-1022,Issue,Heavy rain flooding trenches,Weather,High,Procurement Lead,2026-09-17,2026-09-26,Closed
+I-0134,P-1023,Risk,Extreme heat limiting work hours,Weather,Critical,Operations Lead,2026-08-18,2026-09-07,In Progress
+I-0135,P-1023,Risk,Cable drums delayed at port,Material Delay,Medium,Client Liaison,2026-07-19,2026-09-18,Open
+I-0136,P-1023,Issue,Rework required after audit,Quality Issue,Critical,Procurement Lead,2026-09-24,2026-10-17,Open
+I-0137,P-1023,Issue,Heavy rain flooding trenches,Weather,Medium,Client Liaison,2026-07-24,2026-09-28,Open
+I-0138,P-1023,Issue,Insufficient installation crews,Resource Shortage,Medium,Operations Lead,2026-09-15,2026-10-20,In Progress
+I-0139,P-1023,Issue,Client power provisioning delayed,Client Dependency,High,Commercial Manager,2026-08-03,2026-09-25,In Progress
+I-0140,P-1023,Issue,Vendor testing equipment delayed,Vendor Delay,Critical,Commercial Manager,2026-08-10,2026-09-08,In Progress
+I-0141,P-1023,Risk,Rework required after audit,Quality Issue,Critical,Operations Lead,2026-08-03,2026-10-26,In Progress
+I-0142,P-1023,Issue,Client site handover not confirmed,Client Dependency,High,Commercial Manager,2026-08-19,2026-09-13,Open
+I-0143,P-1023,Risk,Updated BoQ awaiting approval,Design Change,High,Site Manager,2026-09-10,2026-10-18,In Progress
+I-0144,P-1023,Issue,Insufficient installation crews,Resource Shortage,High,Planning Engineer,2026-08-24,2026-09-26,Open
+I-0145,P-1023,Risk,Right-of-way dispute,Access Issue,High,Planning Engineer,2026-08-14,2026-09-15,In Progress
+I-0146,P-1023,Issue,Vendor testing equipment delayed,Vendor Delay,Medium,Quality Lead,2026-09-23,2026-10-12,Resolved
+I-0147,P-1024,Issue,Landowner blocking site access,Access Issue,Critical,Procurement Lead,2026-07-18,2026-10-04,Open
+I-0148,P-1024,Risk,Client power provisioning delayed,Client Dependency,Medium,Quality Lead,2026-08-31,2026-09-19,In Progress
+I-0149,P-1024,Risk,Shortage of certified splicers,Resource Shortage,Medium,Procurement Lead,2026-08-09,2026-10-21,In Progress
+I-0150,P-1024,Issue,Equipment shipment held at customs,Material Delay,Medium,Procurement Lead,2026-09-19,2026-10-09,Resolved
+I-0151,P-1024,Issue,Site access permit expired,Permit Delay,Medium,Commercial Manager,2026-07-11,2026-07-18,Closed
+I-0152,P-1025,Issue,Scope change request under review,Design Change,Medium,Site Manager,2026-08-06,2026-09-11,In Progress
+I-0153,P-1025,Risk,Subcontractor mobilisation late,Vendor Delay,Low,Site Manager,2026-08-21,2026-10-10,Open
+I-0154,P-1025,Issue,Equipment shipment held at customs,Material Delay,Medium,Client Liaison,2026-09-24,2026-10-12,Open
+I-0155,P-1025,Risk,Updated BoQ awaiting approval,Design Change,Low,Site Manager,2026-07-29,2026-08-15,Closed
+I-0156,P-1026,Issue,Road-crossing approval delayed,Permit Delay,High,Commercial Manager,2026-08-14,2026-10-24,In Progress
+I-0157,P-1026,Risk,Landowner blocking site access,Access Issue,Critical,Quality Lead,2026-09-26,2026-10-10,In Progress
+I-0158,P-1026,Risk,Cable drums delayed at port,Material Delay,High,Procurement Lead,2026-09-26,2026-10-16,In Progress
+I-0159,P-1026,Issue,Vendor testing equipment delayed,Vendor Delay,Medium,Quality Lead,2026-08-08,2026-10-09,Open
+I-0160,P-1026,Issue,Sandstorm stopped field works,Weather,Low,Client Liaison,2026-09-25,2026-10-09,Open
+I-0161,P-1026,Issue,Insufficient installation crews,Resource Shortage,High,Planning Engineer,2026-09-11,2026-09-19,Open
+I-0162,P-1026,Issue,Scope change request under review,Design Change,High,Site Manager,2026-08-03,2026-10-01,In Progress
+I-0163,P-1026,Issue,Heavy rain flooding trenches,Weather,High,Procurement Lead,2026-08-09,2026-10-20,In Progress
+I-0164,P-1026,Issue,Vendor testing equipment delayed,Vendor Delay,Critical,Commercial Manager,2026-08-19,2026-10-11,In Progress
+I-0165,P-1026,Risk,Extreme heat limiting work hours,Weather,Critical,Quality Lead,2026-09-10,2026-10-17,In Progress
+I-0166,P-1026,Risk,Revised route design issued,Design Change,High,Commercial Manager,2026-08-03,2026-10-28,Open
+I-0167,P-1026,Risk,Steel supply shortfall,Material Delay,Medium,Procurement Lead,2026-09-21,2026-09-21,Open
+I-0168,P-1026,Issue,Restricted-zone entry not granted,Access Issue,Medium,Procurement Lead,2026-08-08,2026-09-28,In Progress
+I-0169,P-1026,Issue,Heavy rain flooding trenches,Weather,High,Operations Lead,2026-09-12,2026-09-21,Closed
+I-0170,P-1026,Issue,Insufficient installation crews,Resource Shortage,Medium,Planning Engineer,2026-08-03,2026-08-11,Closed
+I-0171,P-1026,Risk,Site access permit expired,Permit Delay,High,Commercial Manager,2026-08-12,2026-09-07,Resolved
+I-0172,P-1027,Risk,Heavy rain flooding trenches,Weather,Critical,Client Liaison,2026-09-10,2026-09-13,In Progress
+I-0173,P-1027,Issue,Heavy equipment unavailable,Resource Shortage,Critical,Procurement Lead,2026-07-24,2026-10-03,In Progress
+I-0174,P-1027,Issue,Heavy rain flooding trenches,Weather,High,Procurement Lead,2026-09-18,2026-09-28,Open
+I-0175,P-1027,Issue,Vendor testing equipment delayed,Vendor Delay,High,Site Manager,2026-09-16,2026-10-06,In Progress
+I-0176,P-1027,Issue,Supplier delivery slipped,Vendor Delay,High,Quality Lead,2026-09-10,2026-09-14,Open
+I-0177,P-1027,Issue,Scope change request under review,Design Change,Critical,Planning Engineer,2026-08-24,2026-10-08,Open
+I-0178,P-1027,Issue,Insufficient installation crews,Resource Shortage,High,Client Liaison,2026-07-05,2026-09-29,Open
+I-0179,P-1027,Issue,Supplier delivery slipped,Vendor Delay,Critical,Client Liaison,2026-09-03,2026-09-12,In Progress
+I-0180,P-1027,Risk,Rework required after audit,Quality Issue,High,Quality Lead,2026-07-23,2026-08-08,Resolved
+I-0181,P-1027,Issue,Site access permit expired,Permit Delay,Medium,Operations Lead,2026-07-17,2026-07-26,Resolved
+I-0182,P-1027,Issue,Landowner blocking site access,Access Issue,Critical,Commercial Manager,2026-07-23,2026-08-04,Resolved
+I-0183,P-1028,Risk,Equipment shipment held at customs,Material Delay,Critical,Planning Engineer,2026-08-03,2026-10-18,In Progress
+I-0184,P-1028,Issue,Steel supply shortfall,Material Delay,Low,Commercial Manager,2026-07-24,2026-10-14,In Progress
+I-0185,P-1028,Risk,Rework required after audit,Quality Issue,Critical,Quality Lead,2026-08-25,2026-10-30,In Progress
+I-0186,P-1028,Risk,Municipality excavation permit pending,Permit Delay,High,Commercial Manager,2026-09-19,2026-09-19,In Progress
+I-0187,P-1028,Issue,Right-of-way dispute,Access Issue,Medium,Procurement Lead,2026-07-31,2026-10-19,In Progress
+I-0188,P-1028,Risk,Right-of-way dispute,Access Issue,High,Operations Lead,2026-07-25,2026-08-09,Resolved
+I-0189,P-1028,Issue,Heavy rain flooding trenches,Weather,High,Planning Engineer,2026-08-25,2026-09-09,Resolved
+I-0190,P-1028,Issue,Heavy rain flooding trenches,Weather,High,Client Liaison,2026-09-09,2026-09-16,Closed
+I-0191,P-1029,Risk,Pending design sign-off from client,Client Dependency,Medium,Procurement Lead,2026-07-23,2026-09-13,In Progress
+I-0192,P-1029,Issue,Shortage of certified splicers,Resource Shortage,Critical,Operations Lead,2026-08-22,2026-09-22,Open
+I-0193,P-1029,Issue,Site access permit expired,Permit Delay,Medium,Client Liaison,2026-09-18,2026-10-01,In Progress
+I-0194,P-1029,Issue,Rework required after audit,Quality Issue,High,Quality Lead,2026-07-05,2026-10-01,Open
+I-0195,P-1029,Risk,Vendor testing equipment delayed,Vendor Delay,High,Procurement Lead,2026-09-10,2026-10-29,Open
+I-0196,P-1029,Risk,Insufficient installation crews,Resource Shortage,High,Commercial Manager,2026-07-14,2026-09-24,Open
+I-0197,P-1029,Issue,Sandstorm stopped field works,Weather,Critical,Quality Lead,2026-07-13,2026-10-15,Open
+I-0198,P-1029,Issue,Pending design sign-off from client,Client Dependency,High,Planning Engineer,2026-09-21,2026-10-21,In Progress
+I-0199,P-1029,Issue,Failed OTDR test results,Quality Issue,Critical,Planning Engineer,2026-09-18,2026-10-11,Open
+I-0200,P-1029,Issue,Road-crossing approval delayed,Permit Delay,Low,Site Manager,2026-09-26,2026-10-19,Open
+I-0201,P-1029,Issue,Equipment shipment held at customs,Material Delay,Medium,Quality Lead,2026-08-15,2026-10-21,In Progress
+I-0202,P-1029,Issue,Heavy rain flooding trenches,Weather,Low,Procurement Lead,2026-09-07,2026-09-29,Open
+I-0203,P-1029,Risk,Shortage of certified splicers,Resource Shortage,High,Procurement Lead,2026-07-18,2026-10-24,In Progress
+I-0204,P-1029,Risk,Revised route design issued,Design Change,Critical,Site Manager,2026-08-29,2026-10-04,In Progress
+I-0205,P-1029,Risk,Concrete strength non-conformance,Quality Issue,Critical,Client Liaison,2026-07-21,2026-10-22,In Progress
+I-0206,P-1029,Issue,Vendor testing equipment delayed,Vendor Delay,Critical,Procurement Lead,2026-07-08,2026-09-20,In Progress
+I-0207,P-1029,Issue,Client power provisioning delayed,Client Dependency,Critical,Planning Engineer,2026-08-04,2026-08-24,Resolved
+I-0208,P-1029,Risk,Municipality excavation permit pending,Permit Delay,Medium,Procurement Lead,2026-09-26,2026-10-07,Resolved
+I-0209,P-1029,Risk,Vendor testing equipment delayed,Vendor Delay,Medium,Client Liaison,2026-07-25,2026-08-05,Resolved
+I-0210,P-1030,Risk,Municipality excavation permit pending,Permit Delay,Low,Operations Lead,2026-09-13,2026-10-25,Open
+I-0211,P-1030,Issue,Site access permit expired,Permit Delay,Medium,Quality Lead,2026-08-23,2026-10-26,In Progress
+I-0212,P-1030,Risk,Extreme heat limiting work hours,Weather,High,Client Liaison,2026-07-16,2026-08-05,Resolved
+I-0213,P-1030,Risk,Road-crossing approval delayed,Permit Delay,High,Procurement Lead,2026-08-20,2026-09-10,Resolved
+I-0214,P-1030,Issue,Subcontractor mobilisation late,Vendor Delay,Critical,Client Liaison,2026-09-19,2026-10-12,Closed
+I-0215,P-1031,Issue,Scope change request under review,Design Change,High,Procurement Lead,2026-07-21,2026-10-14,In Progress
+I-0216,P-1031,Risk,Heavy equipment unavailable,Resource Shortage,High,Client Liaison,2026-07-10,2026-10-04,In Progress
+I-0217,P-1031,Risk,Site access permit expired,Permit Delay,Critical,Commercial Manager,2026-08-31,2026-10-25,Open
+I-0218,P-1031,Risk,Subcontractor mobilisation late,Vendor Delay,High,Client Liaison,2026-09-04,2026-10-23,In Progress
+I-0219,P-1031,Issue,Right-of-way dispute,Access Issue,Low,Operations Lead,2026-08-27,2026-10-24,In Progress
+I-0220,P-1031,Issue,Insufficient installation crews,Resource Shortage,Critical,Planning Engineer,2026-07-08,2026-10-04,Open
+I-0221,P-1031,Risk,Steel supply shortfall,Material Delay,High,Commercial Manager,2026-07-08,2026-07-18,Resolved
+I-0222,P-1032,Risk,Supplier delivery slipped,Vendor Delay,High,Commercial Manager,2026-09-18,2026-09-06,In Progress
+I-0223,P-1032,Issue,Subcontractor mobilisation late,Vendor Delay,Medium,Quality Lead,2026-08-15,2026-09-06,In Progress
+I-0224,P-1032,Risk,Cable drums delayed at port,Material Delay,Critical,Client Liaison,2026-09-23,2026-10-11,In Progress
+I-0225,P-1032,Issue,Rework required after audit,Quality Issue,Critical,Site Manager,2026-07-08,2026-10-19,Open
+I-0226,P-1032,Issue,Heavy rain flooding trenches,Weather,Medium,Commercial Manager,2026-07-09,2026-10-07,In Progress
+I-0227,P-1032,Issue,Shortage of certified splicers,Resource Shortage,High,Site Manager,2026-07-10,2026-07-26,Resolved
+I-0228,P-1032,Issue,Heavy rain flooding trenches,Weather,High,Client Liaison,2026-09-07,2026-10-03,Closed

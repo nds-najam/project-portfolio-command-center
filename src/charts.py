@@ -276,3 +276,27 @@ def overrun_bars(p, top_n=12):
     fig.update_yaxes(showgrid=False)
     fig.update_layout(bargap=0.4)
     return _style(fig, 340, legend=False)
+
+
+def health_gauge(row):
+    """Speedometer-style gauge of one project's health score, banded by the On Track / At Risk / Critical thresholds."""
+    from .calculations import HEALTH_CONFIG
+    b = HEALTH_CONFIG["bands"]
+    fig = go.Figure(go.Indicator(
+        mode="gauge+number", value=float(row["health_score"]),
+        number=dict(font=dict(size=34, color=COLORS["Ink"]), valueformat=".0f"),
+        title=dict(text=f"<b>{row['project_id']}</b> · {row['health_status']}<br>"
+                        f"<span style='font-size:12px;color:{COLORS['Muted']}'>{row['project_name']}</span>",
+                   font=dict(size=14, color=COLORS["Ink"])),
+        gauge=dict(
+            axis=dict(range=[0, 100], tickvals=[0, b["At Risk"], b["On Track"], 100], tickfont=dict(size=10)),
+            bar=dict(color=COLORS[row["health_status"]], thickness=0.3),
+            bgcolor="white", borderwidth=0,
+            steps=[dict(range=[0, b["At Risk"]], color="#F6D6D1"),
+                   dict(range=[b["At Risk"], b["On Track"]], color="#FBEFC9"),
+                   dict(range=[b["On Track"], 100], color="#DCF0E5")],
+            threshold=dict(line=dict(color=COLORS["Ink"], width=3), thickness=0.8, value=float(row["health_score"])),
+        )))
+    fig.update_layout(height=250, margin=dict(l=25, r=25, t=80, b=10), paper_bgcolor="rgba(0,0,0,0)",
+                      font=dict(family=FONT))
+    return fig

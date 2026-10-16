@@ -8,9 +8,10 @@ st.set_page_config(page_title="Project Portfolio Command Center", page_icon="ðŸ“
 
 from src import config, data_loader, ui  # noqa: E402
 from views import (demo_controls, executive_dashboard, financials, issues, portfolio,  # noqa: E402
-                   project_details, schedule)
+                   priority_projects, project_details, schedule)
 
 PAGES = {
+    "Priority Projects": priority_projects,
     "Executive Dashboard": executive_dashboard,
     "Project Portfolio": portfolio,
     "Project Details": project_details,
@@ -25,7 +26,7 @@ DATE_MIN, DATE_MAX = date(2024, 1, 1), date(2029, 12, 31)
 # ---- session defaults
 st.session_state.setdefault("scenario", "Normal Portfolio")
 st.session_state.setdefault("seed", 42)
-st.session_state.setdefault("nav", "Executive Dashboard")
+st.session_state.setdefault("nav", "Priority Projects")
 
 data = data_loader.load_data(st.session_state["seed"], st.session_state["scenario"])
 projects = data["projects"]

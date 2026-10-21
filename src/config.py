@@ -19,17 +19,17 @@ RISK_LEVELS = ["Low", "Medium", "High"]
 HEALTH_STATUSES = ["On Track", "At Risk", "Critical", "Completed"]
 MILESTONE_STATUSES = ["Completed", "On Track", "At Risk", "Delayed"]
 
-# Status palette (reserved meaning) + neutrals
+# Status palette (reserved meaning, vivid for visibility) + neutrals
 COLORS = {
-    "On Track": "#2E8B63",
-    "At Risk": "#E0A526",
-    "Critical": "#C8483A",
-    "Completed": "#7C8DA6",
-    "Info": "#2F6DB5",
+    "On Track": "#00C46A",
+    "At Risk": "#FFAA00",
+    "Critical": "#FF3B30",
+    "Completed": "#8B5CF6",
+    "Info": "#0A84FF",
     "Ink": "#1B2A41",
     "Muted": "#6B7A90",
     "Grid": "#E3E8EF",
 }
-SEVERITY_COLORS = {"Critical": "#C8483A", "High": "#E0793A", "Medium": "#E0A526", "Low": "#7C8DA6"}
-RISK_COLORS = {"Low": "#2E8B63", "Medium": "#E0A526", "High": "#C8483A"}
-MILESTONE_COLORS = {"Completed": "#7C8DA6", "On Track": "#2E8B63", "At Risk": "#E0A526", "Delayed": "#C8483A"}
+SEVERITY_COLORS = {"Critical": "#FF3B30", "High": "#FF7A00", "Medium": "#FFC400", "Low": "#29B6F6"}
+RISK_COLORS = {"Low": "#00C46A", "Medium": "#FFAA00", "High": "#FF3B30"}
+MILESTONE_COLORS = {"Completed": "#8B5CF6", "On Track": "#00C46A", "At Risk": "#FFAA00", "Delayed": "#FF3B30"}

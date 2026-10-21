@@ -14,20 +14,20 @@ html, body, [class*="css"] { font-family: Inter, 'Segoe UI', Helvetica, Arial, s
 .app-header p { margin:4px 0 0 0; color:#B8C7DB; font-size:.9rem; }
 .badge { background:rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.35); padding:5px 12px; border-radius:20px;
   font-size:.75rem; font-weight:600; letter-spacing:.06em; white-space:nowrap; }
-.kpi { background:#fff; border:1px solid #E3E8EF; border-radius:10px; padding:12px 14px; border-left:4px solid #2F6DB5;
+.kpi { background:#fff; border:1px solid #E3E8EF; border-radius:10px; padding:12px 14px; border-left:4px solid #0A84FF;
   min-height:92px; }
 .kpi .l { color:#6B7A90; font-size:.72rem; text-transform:uppercase; letter-spacing:.06em; font-weight:600; }
 .kpi .v { color:#1B2A41; font-size:1.55rem; font-weight:700; line-height:1.25; }
 .kpi .s { color:#6B7A90; font-size:.75rem; }
-.kpi.green { border-left-color:#2E8B63; } .kpi.amber { border-left-color:#E0A526; }
-.kpi.red { border-left-color:#C8483A; } .kpi.grey { border-left-color:#7C8DA6; }
+.kpi.green { border-left-color:#00C46A; } .kpi.amber { border-left-color:#FFAA00; }
+.kpi.red { border-left-color:#FF3B30; } .kpi.grey { border-left-color:#8B5CF6; }
 .section { font-size:.8rem; text-transform:uppercase; letter-spacing:.1em; color:#6B7A90; font-weight:700;
   border-bottom:1px solid #E3E8EF; padding-bottom:4px; margin:22px 0 10px 0; }
 .insight { padding:8px 12px; border-radius:6px; margin-bottom:6px; font-size:.9rem; color:#1B2A41; background:#F4F7FB;
-  border-left:4px solid #2F6DB5; }
-.insight.critical { border-left-color:#C8483A; background:#FBF1EF; }
-.insight.warn { border-left-color:#E0A526; background:#FDF8EC; }
-.attn { border:1px solid #E3E8EF; border-left:4px solid #C8483A; border-radius:8px; padding:10px 14px; background:#fff; margin-bottom:8px; }
+  border-left:4px solid #0A84FF; }
+.insight.critical { border-left-color:#FF3B30; background:#FBF1EF; }
+.insight.warn { border-left-color:#FFAA00; background:#FDF8EC; }
+.attn { border:1px solid #E3E8EF; border-left:4px solid #FF3B30; border-radius:8px; padding:10px 14px; background:#fff; margin-bottom:8px; }
 .attn b { color:#1B2A41; } .attn span { color:#4A5A70; font-size:.85rem; }
 .pill { display:inline-block; padding:2px 10px; border-radius:12px; font-size:.78rem; font-weight:700; color:#fff; }
 </style>

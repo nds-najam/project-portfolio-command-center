@@ -6,8 +6,8 @@ import plotly.graph_objects as go
 from .config import (AS_OF, COLORS, HEALTH_STATUSES, SEVERITIES, SEVERITY_COLORS, MILESTONE_COLORS)
 
 FONT = "Inter, Segoe UI, Helvetica, Arial, sans-serif"
-SERIES = {"Budget": "#8FA3BF", "Actual Spend": "#2F6DB5", "Forecast Cost": "#1B2A41",
-          "Planned": "#8FA3BF", "Actual": "#2F6DB5"}
+SERIES = {"Budget": "#00B8D9", "Actual Spend": "#0A57FF", "Forecast Cost": "#E5199A",
+          "Planned": "#00B8D9", "Actual": "#0A57FF"}
 
 
 def _style(fig, height=340, legend=True, title=None):
@@ -206,7 +206,7 @@ def gantt(p, max_rows=25):
     if not slip.empty:
         fig.add_bar(y=slip.project_id + " · " + slip.region, base=slip.planned_end,
                     x=(slip.forecast_end - slip.planned_end).dt.total_seconds() * 1000, orientation="h",
-                    name="Forecast slip", marker=dict(color="rgba(200,72,58,0.25)", line=dict(color=COLORS["Critical"], width=1)),
+                    name="Forecast slip", marker=dict(color="rgba(255,59,48,0.3)", line=dict(color=COLORS["Critical"], width=1)),
                     width=0.55, hovertemplate="Forecast slip: %{customdata} days<extra></extra>",
                     customdata=slip.schedule_variance_days)
     fig.add_vline(x=pd.Timestamp(AS_OF), line=dict(color=COLORS["Ink"], width=1.5, dash="dot"))
@@ -278,6 +278,10 @@ def overrun_bars(p, top_n=12):
     return _style(fig, 340, legend=False)
 
 
+# Darker shades of the status colours, readable as small text on white.
+STATUS_TEXT = {"On Track": "#00873F", "At Risk": "#B86E00", "Critical": "#D7261E", "Completed": "#6D3FE0"}
+
+
 def health_gauge(row):
     """Speedometer-style gauge of one project's health score, banded by the On Track / At Risk / Critical thresholds."""
     from .calculations import HEALTH_CONFIG
@@ -285,17 +289,18 @@ def health_gauge(row):
     fig = go.Figure(go.Indicator(
         mode="gauge+number", value=float(row["health_score"]),
         number=dict(font=dict(size=34, color=COLORS["Ink"]), valueformat=".0f"),
-        title=dict(text=f"<b>{row['project_id']}</b> · {row['health_status']}<br>"
+        title=dict(text=f"<b>{row['project_id']}</b> · <b><span style='color:{STATUS_TEXT[row['health_status']]}'>{row['health_status']}</span></b><br>"
                         f"<span style='font-size:12px;color:{COLORS['Muted']}'>{row['project_name']}</span>",
                    font=dict(size=14, color=COLORS["Ink"])),
         gauge=dict(
             axis=dict(range=[0, 100], tickvals=[0, b["At Risk"], b["On Track"], 100], tickfont=dict(size=10)),
-            bar=dict(color=COLORS[row["health_status"]], thickness=0.3),
+            # Solid bright bands (speedometer style); the dark bar + white tick marks the score on top of them.
+            bar=dict(color=COLORS["Ink"], thickness=0.28),
             bgcolor="white", borderwidth=0,
-            steps=[dict(range=[0, b["At Risk"]], color="#F6D6D1"),
-                   dict(range=[b["At Risk"], b["On Track"]], color="#FBEFC9"),
-                   dict(range=[b["On Track"], 100], color="#DCF0E5")],
-            threshold=dict(line=dict(color=COLORS["Ink"], width=3), thickness=0.8, value=float(row["health_score"])),
+            steps=[dict(range=[0, b["At Risk"]], color=COLORS["Critical"]),
+                   dict(range=[b["At Risk"], b["On Track"]], color=COLORS["At Risk"]),
+                   dict(range=[b["On Track"], 100], color=COLORS["On Track"])],
+            threshold=dict(line=dict(color="white", width=4), thickness=0.9, value=float(row["health_score"])),
         )))
     fig.update_layout(height=250, margin=dict(l=25, r=25, t=80, b=10), paper_bgcolor="rgba(0,0,0,0)",
                       font=dict(family=FONT))
